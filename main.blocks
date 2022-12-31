@@ -1,1 +1,31 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="}sMTvh=B}*.{@4)m7o2K" x="0" y="0"></block><block type="device_forever" id="bg}rj==sj[be!r3@,}t#" x="205" y="0"></block></xml>
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_gesture_event" id="JgtQE.R]nGt6lEvOM%#d" x="290" y="-87"><field name="NAME">Gesture.LogoUp</field><statement name="HANDLER"><block type="radio_datagram_send" id="`eihke#L7c%AM6xbEAe4"><value name="value"><shadow type="math_number" id="d!%Z8=2qtAFsWGmDI){="><field name="NUM">1</field></shadow></value><next><block type="device_show_leds" id="A2x`[7boo420`Eh11-Sk"><field name="LEDS">`
+        . . # . . 
+        . # # # . 
+        # . # . # 
+        . . # . . 
+        . . # . .
+        `</field></block></next></block></statement></block><block type="pxt-on-start" id="}sMTvh=B}*.{@4)m7o2K" x="0" y="0"><statement name="HANDLER"><block type="radio_set_group" id="zp;=1]HM|f4jLA,sB=A*"><value name="ID"><shadow type="math_number_minmax" id="Cz`noBCM?r;}tPf(l`o`"><mutation min="0" max="255" label="Id" precision="0"></mutation><field name="SLIDER">1</field></shadow></value><next><block type="radio_set_transmit_power" id="?F9_/z3}m^9V$/4)gme?"><value name="power"><shadow type="math_number_minmax" id=";,]n-z4Y@4nyxk)HKLaJ"><mutation min="0" max="7" label="Power" precision="0"></mutation><field name="SLIDER">7</field></shadow></value></block></next></block></statement></block><block type="device_gesture_event" id="v7h/qZv%Uq({#0)2i?5F" x="-18" y="296"><field name="NAME">Gesture.TiltLeft</field><statement name="HANDLER"><block type="radio_datagram_send" id="ZlL$5i,N-*IuC@-}|sys"><value name="value"><shadow type="math_number" id="I+U@Fi6f]psvoJ3*yV!k"><field name="NUM">3</field></shadow></value><next><block type="device_show_leds" id="^pF;@hu%2)Pn3SmjWczF"><field name="LEDS">`
+        . . # . . 
+        . # . . . 
+        # # # # # 
+        . # . . . 
+        . . # . .
+        `</field></block></next></block></statement></block><block type="device_gesture_event" id="j,dFaM?dwuAOh)GmNDAc" x="288" y="288"><field name="NAME">Gesture.ScreenUp</field><statement name="HANDLER"><block type="radio_datagram_send" id="x5Ijtcn)oIe}2n*n~ft+"><value name="value"><shadow type="math_number" id="?R5I9a?oeB{jOKbyvP6n"><field name="NUM">0</field></shadow></value><next><block type="device_show_leds" id="A~5PyfOmz/F-h_fJ(47g"><field name="LEDS">`
+        . . # . . 
+        . # . # . 
+        # . . . # 
+        . # . # . 
+        . . # . .
+        `</field></block></next></block></statement></block><block type="device_gesture_event" id="?Y.p#3%[Wkq5[P!odgbW" x="552" y="294"><field name="NAME">Gesture.TiltRight</field><statement name="HANDLER"><block type="radio_datagram_send" id="pl19GHn!,%.+tXGVgSD9"><value name="value"><shadow type="math_number" id="TS2xqxQc7Ux:+zN|pj@M"><field name="NUM">4</field></shadow></value><next><block type="device_show_leds" id="2*=)!p6J/D#bq{D3Ob-U"><field name="LEDS">`
+        . . # . . 
+        . . . # . 
+        # # # # # 
+        . . . # . 
+        . . # . .
+        `</field></block></next></block></statement></block><block type="device_gesture_event" id="z3#_AH?!(wAD1_E:z6d1" x="287" y="661"><field name="NAME">Gesture.LogoDown</field><statement name="HANDLER"><block type="radio_datagram_send" id="[Hk%VY7kJ?5N+r@|Qf6B"><value name="value"><shadow type="math_number" id="9VhZjsw[(9XM#P%G$(n/"><field name="NUM">2</field></shadow></value><next><block type="device_show_leds" id="xT@Qp,Aw_Pr)vu7J/;S}"><field name="LEDS">`
+        . . # . . 
+        . . # . . 
+        # . # . # 
+        . # # # . 
+        . . # . .
+        `</field></block></next></block></statement></block></xml>
