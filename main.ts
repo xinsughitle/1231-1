@@ -48,5 +48,5 @@ input.onGesture(Gesture.TiltRight, function () {
         . . # . .
         `)
 })
-radio.setGroup(1)
+radio.setGroup(255)
 radio.setTransmitPower(7)
